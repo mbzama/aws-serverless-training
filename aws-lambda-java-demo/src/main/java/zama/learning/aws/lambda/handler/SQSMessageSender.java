@@ -8,8 +8,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.json.JSONObject;
-
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
 import com.amazonaws.services.lambda.runtime.RequestStreamHandler;

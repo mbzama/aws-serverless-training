@@ -40,7 +40,7 @@ public class SQSSenderTest {
 
 		SendMessageRequest sendMessageStandardQueue = new SendMessageRequest()
 				.withQueueUrl(Constants.QUEUE_URL)
-				.withMessageBody("Message from Testcase ----- 9:21")
+				.withMessageBody("Message from Testcase -----")
 				.withMessageAttributes(messageAttributes);
 
 		sqs.sendMessage(sendMessageStandardQueue);
