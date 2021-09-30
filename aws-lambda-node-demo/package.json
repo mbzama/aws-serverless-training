@@ -1,0 +1,16 @@
+{
+  "name": "aws-lambda-nodejs-demo",
+  "version": "1.0.0",
+  "description": "AWS Lambda - Simple Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zama",
+  "dependencies": {
+    "aws-xray-sdk": "^3.3.3",
+    "axios": "^0.21.1",
+    "https": "^1.0.0",
+    "request": "^2.88.2"
+  }
+}
