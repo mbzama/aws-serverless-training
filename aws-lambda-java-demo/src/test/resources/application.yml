@@ -1,0 +1,10 @@
+datasource:
+  driverClassName: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/db?useSSL=false
+  username: user
+  password: admin@123
+
+inputfile:
+  s3Bucket: snow-datafiles
+  fileName: assets-full.csv
+  localFilePath: assets-full.csv
